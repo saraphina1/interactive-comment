@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import CommentSection from './Components/CommentSection';
+
 
 function App() {
   return (
     <div className="App">
-      hi
+      <CommentSection />
     </div>
   );
 }
