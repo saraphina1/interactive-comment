@@ -107,6 +107,7 @@ function CommentSection() {
                     cancelModal={() => setShowDeleteModal(false)}
                     deleteComment={() => deleteCommentFromArray(deleteCommentId)}
                 />
+                
             )}
             <UserComment currentUser={currentUser} addComment={addComment} />
         </div>
